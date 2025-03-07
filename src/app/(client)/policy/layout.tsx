@@ -27,7 +27,7 @@ export const metadata: Metadata = createMetadata({
   },
 });
 
-export const PolicyLayout = ({ children }: { children: React.ReactNode }) => {
+ const PolicyLayout = ({ children }: { children: React.ReactNode }) => {
   return <>{children}</>;
 };
 

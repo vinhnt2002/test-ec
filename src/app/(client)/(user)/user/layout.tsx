@@ -1,7 +1,7 @@
 import SidebarProfile from "@/components/UserProfile/SidebarProfile";
 import Image from "next/image";
 
-export const ClientLayout = ({ children }: { children: React.ReactNode }) => {
+const ClientLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="min-h-screen overflow-hidden bg-[#eff0f5]">
       <div className="p-4 flex items-center space-x-3 mb-2">

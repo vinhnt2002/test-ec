@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import illustration from "@/assets/images/auth/user.png";
-export const AuthLayout = ({ children }: { children: React.ReactNode }) => {
+const AuthLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="flex min-h-screen">
       <div className="hidden lg:flex lg:w-1/2 bg-blue-50 relative">

@@ -1,6 +1,4 @@
-import { createMetadata } from "@/config/metadata";
-import { siteConfig } from "@/config/site";
-import { Metadata } from "next";
+
 
 //pre setup
 // export async function generateMetadata({
@@ -39,7 +37,7 @@ import { Metadata } from "next";
 //   });
 // }
 
-export const ProductDetailLayout = ({
+ const ProductDetailLayout = ({
   children,
 }: {
   children: React.ReactNode;

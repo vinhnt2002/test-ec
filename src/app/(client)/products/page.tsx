@@ -4,12 +4,8 @@ import Link from "next/link";
 
 const ITEMS_PER_PAGE = 5;
 
-export default async function ProductListingPage({
-  searchParams,
-}: {
-  searchParams: { page?: string };
-}) {
-  const params = await searchParams;
+export default async function ProductListingPage({}) {
+  const params = { page: "1" };
 
   const currentPage = params?.page
     ? Math.max(

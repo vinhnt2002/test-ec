@@ -3,7 +3,7 @@ import Header from "@/components/Shared/Header/Header";
 import AuthProvider from "@/providers/AuthProvider";
 import { Suspense } from "react";
 
-export const ClientLayout = ({ children }: { children: React.ReactNode }) => {
+const ClientLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <AuthProvider>
       <Suspense fallback={<div>...loading</div>}>
